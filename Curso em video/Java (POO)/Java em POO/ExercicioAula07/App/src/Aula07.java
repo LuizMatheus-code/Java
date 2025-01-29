@@ -1,3 +1,5 @@
+
+
 public class Aula07 {
     public static void main(String[] args) throws Exception {
         
@@ -13,6 +15,10 @@ public class Aula07 {
         
         Lutador Nerdaard = new Lutador("Nerdaard", "EUA", 30, 1.81f, 105.7f, 12, 2, 4);
 
-        Putscript.apresentar();
+        Luta uec01 = new Luta();
+
+        uec01.marcarLuta(Ufocobol, Ufocobol);
+        uec01.lutar();
+        Ufocobol.status();
     }
 }
